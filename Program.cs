@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int N;
+
+Console.Write($"Введите число ");
+
+int.TryParse(Console.ReadLine()!, out N);
+
+Console.Write($"Число = {N / 10 % 10}");
